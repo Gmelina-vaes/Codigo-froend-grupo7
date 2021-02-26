@@ -8,7 +8,7 @@
 </head>
 <body>
     <main>
-        <form action="">
+        <form action="" oninput="x.value=parseInt(a.value)" + oninput="x.value=parseInt(b.value)">
             <div>
                 <label for="input-nombre">Nombre</label> <br>
 
@@ -61,6 +61,22 @@
                     <option value="Swift">swift</option>
                     
                 </select>
+            </div>
+            <div>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10">Desarrollador Fronted codigo</textarea>
+                <button type="button" onclick="alert('Hola compañeros de codigo')">Hazme clic dude !!</button>
+            </div>
+            <div>
+                <div>
+                    0
+                    <input type="range" id="a" name="a" value="50">
+                    100
+                   <input type="number" id="b" name="b">
+                
+                </div>
+                <output name="x" for="a b" value="50"></output>
+
+                
             </div>
         </form>
     </main>
