@@ -5,13 +5,29 @@
     font-size: 40px;
     text-align:center;
 }
+
+#centrame{
+      text-align: center;
+}
+
 #imagen {
+     border:blanchedalmond;
      align-content: center;
-     text-align: center;
+     text-align: center ;
+
 } 
+img {
+    text-align: center;
+    border-radius: 20%;
+}
+img:hover 
+{
+   text-align: start;
+    height: 40px;
+}
 
 .quien-soy {
-    text-align:left;
+    text-align:center;
      color:teal;
      background-color: rgb(208, 240, 135);
       
@@ -26,12 +42,22 @@ h2 {
 
   
 }
-.footer
+#foot
     {
-      background-color: black;
+      background-color: rgb(215, 213, 218);
     }
  body
-   { background-color: teal;
+   { background-image: url(https://i.pinimg.com/originals/26/c6/31/26c6317b4347fa9f8ec7d012990f648f.jpg);
 
  }
+.input-estilos {
+    background-color:antiquewhite;
+    caret-color: green;
+    color: brown;
+}
 
+form > label
+ {
+   font-size: 100px;
+   background-color: blueviolet;
+ }
