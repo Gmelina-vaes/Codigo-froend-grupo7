@@ -3,11 +3,35 @@
     color:rgb(206, 180, 180);
     font-weight: bold;
     font-size: 40px;
+    text-align:center;
 }
-.imagen {
-     align-items: center;
+#imagen {
+     align-content: center;
+     text-align: center;
 } 
 
-h2 {
-    
+.quien-soy {
+    text-align:left;
+     color:teal;
+     background-color: rgb(208, 240, 135);
+      
 }
+h2 {
+    color:rgb(21, 128, 0);
+}
+
+.habilidades{
+    background-color: rgb(208, 240, 135);
+    text-align: center;
+
+  
+}
+.footer
+    {
+      background-color: black;
+    }
+ body
+   { background-color: teal;
+
+ }
+
