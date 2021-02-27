@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos-exteriores.html">
+    <title>Estilos-exteriores</title>
+</head>
+
+
+        p {
+                       
+          }
+
+          /*  SINTAXIS CSS
+             SELECTOR {
+              propiedad :valor
+             }
+          */
+         h1 {
+              color: rgb(26, 194, 54);  
+         }    font-size:100px;
+    
+         body {
+           background-color: rgb(53, 125, 187);
+           text-align: center;
+         }
+         header {
+             background-color: aliceblue;
+             text-align: center;
+                
+         }
+
+
+
