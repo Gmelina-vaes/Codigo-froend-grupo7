@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,700&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
+
+#nombre {
+  color: aquamarine;
+}
+
+#color1 {
+  color: blue;
+}
+#color2 {
+  color: rgb(221, 161, 32);
+}
+#color3 {
+  color: yellow;
+}
+#color4 {
+  color: rgb(44, 31, 226);
+}
+#color5 {
+  color: deeppink;
+}
+.cancion {
+  font-family: "Roboto Mono", monospace;
+  color: rgb(6, 105, 6);
+}
+
+#parrafo3{
+    font-family: 'Noto Sans JP', sans-serif;
+    color: blueviolet;
+    font-size: 30px;
+}
+#parrafo4{
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: burlywood;
+    font-size: 30px;
+}
+#parrafo2{
+    font-family: 'Merienda', cursive;
+    color: rgb(67, 94, 52);
+    font-size: 20px;
+}
+sub{
+    color:darkgrey
+}
+body{
+    color: rgb(4, 12, 29);
+    background-color: rgb(128, 93, 111);
+}
+
+#primer-nombre{
+    font-family: "Roboto Mono", monospace;
+    font-size: 35px;
+    font-weight: bold;
+}
+#segundo-nombre{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 55px;
+    font-weight: bold;
+}
+#primer-apellido{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+#segundo-apellido{
+    font-family: "Roboto Mono", monospace;
+    font-size: 75px;
+    font-weight: bold;
+}
+
+.contenedor{
+    display:inline-block
+}
