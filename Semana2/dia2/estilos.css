@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(209, 200, 233);
+
+}
+#primer-parrafo {
+background-color: green;
+}
+#segundo-parrafo {
+ background-color: brown; 
+ opacity:0.5;  
+}
+#tercer-parrafo {
+    background-color: rgb(20, 83, 54);
+    opacity:0.2;
+}
+#cuarto-parrafo {
+    background: rgba(75,201,96,0,3);
+
+}
+#contenedor{
+  height: 400px;
+  width: 350px;
+  background-image: url("http://blog.desafiolatam.com/wp-content/uploads/2019/04/react-galaxia.png");
+  background-size: contain;
+  background-size:cover;
+  background-repeat:rigth top;
+  opacity:0.5;
+
+}
+
+

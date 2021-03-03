@@ -74,5 +74,6 @@ body{
 }
 
 .contenedor{
-    display:inline-block
+    /*display:inline-block*/
+    display:inline-flex
 }

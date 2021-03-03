@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(209, 200, 233);
+    background-repeat:no-repeat ;
+    background-image: url("https://static9.depositphotos.com/1006994/1181/v/600/depositphotos_11813499-stock-illustration-abstract-music-background.jpg");
+ 
+  background-size:cover;
+
+
+}
+#primer-parrafo {
+background-color: green;
+}
+#fondo{
+
+    height: 70vh
+}
+#segundo-parrafo {
+ background-color: brown; 
+ opacity:0.5;  
+}
+#tercer-parrafo {
+    background-color: rgb(20, 83, 54);
+    opacity:0.2;
+}
+#cuarto-parrafo {
+    background: rgba(75,201,96,0,3);
+
+}
+#color-titulo{
+    color:sandybrown;
+    background-size: 50;
+    font-size: 80px;
+}
+div {
+    
+    background-position: center;
+    text-align: center;
+    background-size:contain;
+}
+
+footer
+{
+    height: 10vh;
+     background-image:url("https://www.contagioradio.com/wp-content/uploads/2019/08/banderacolombia_dt-3-1.jpg");
+    color:white;
+    font-weight:bolder;
+    text-align: center;
+    height:15vh;
+    width:100vw;
+}
+header {
+    text-align: center;
+}
+.artista {
+    color:white;
+    font-weight:bolder;
+}
+#contendor-imagen{
+    text-align:center;
+}
+img {
+    border-radius:25px;
+    height: 80vh;
+}
+
+#contenedor{
+    height: 700px;
+    width: 700px;
+    text-align: center;
+background-size:contain;
+
+  /*background-image: url("https://i.pinimg.com/originals/5f/c6/e0/5fc6e014eb5f5d734077ec6fe917f125.jpg");
+  */
+  background-repeat:no-repeat;
+}
+

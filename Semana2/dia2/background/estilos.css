@@ -1,0 +1,36 @@
+
+#texto-borde-puntuadito{
+border-style: dotted;
+}
+#texto-borde-linea{
+    border-style:dashed;
+
+}
+#texto-borde-solido{
+border-style: solid;
+}
+#texto-borde-doble{
+    border-style: double;
+}
+input
+{
+    border:none;
+    background-color: rgb(23, 46, 77);
+}
+h1
+{
+    border-style: inset;
+}
+#texto-border-insert{
+border-style:insert;
+}
+#texto-multiborder{
+    border-style:dotted dashed solid double;
+
+}
+#texto-titulo{
+ border-style:double dashed dashed dotted;   
+}
+
+#texto-ultimo{
+    border-style:dotted dashed dashed double;
