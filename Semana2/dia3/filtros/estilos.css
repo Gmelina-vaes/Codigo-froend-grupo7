@@ -1,0 +1,52 @@
+img{
+    filter:grayscale(grayscale);
+    text-align: center;
+}
+
+#imagen{
+    filter:grayscale(100%);
+}
+body{
+    background-image: linear-gradient(gray ,rgb(255, 217, 0));
+    text-align: center;
+}
+div{
+    text-align: center;
+}
+#blanco-Negro{
+filter:grayscale(100%);
+border-radius:20%
+}
+
+#blur{
+    filter: blur(20px);
+
+}
+#girar-imagen{
+    height: 250px;
+    width: 250px;
+    background-color: blue;
+    color:white;
+    text-align: center;
+    font-size: 30px;
+    transform: rotate(100deg);
+}
+
+#girar-imagen{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    color:white;
+    text-align: center;
+    font-size: 30px;
+    transform: rotate(180deg);
+}
+#torcer-segunda-imagen{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(133, 11, 47);
+    color:white;
+    text-align:center;
+    font-size: 30px;
+    transform: skewY(45deg ) ;
+}
