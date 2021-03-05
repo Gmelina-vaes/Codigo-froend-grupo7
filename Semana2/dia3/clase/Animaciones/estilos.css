@@ -7,14 +7,12 @@
 
 @keyframes mi-animacion {
     0% {
-        background-color: teal;
-        
-}
+        background-color: rgb(151, 172, 128)        
+       }
 100%
-{
-    background-color: rgb(200, 255, 71);
-}
-
+  {
+   background-color: rgb(200, 255, 71);
+ }
 }
 
 img{
