@@ -1,0 +1,78 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,700&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
+
+div{
+    background-color:rgb(52, 53, 56);
+    
+    font-weight: bold;
+    border: 10px solid  rgb(216, 134, 41);
+    padding-top:20px;
+    padding-bottom:10px;
+    margin-right: 650px;
+    margin: bottom 30px;
+}
+img{
+    width: 900px;
+    height: 300px;
+    border-radius: 0px;
+    border: 10px solid rgb(91, 167, 114);
+    margin-bottom:30px;
+    margin-left:20px;
+    margin-right:80px;
+}
+body{
+    text-align: left;  
+}
+#contenedor{
+ height: 900px;
+width: 800px;
+ background-image:linear-gradient(to right,white,rgb(8, 8, 8));
+}
+#contenedor1{
+    width: 700px;
+    height: 500px;
+    color: black;
+    margin-bottom:50px;
+    margin-left:10px;
+    margin-right:80px;
+   }
+
+footer{
+padding: 5px;
+text-align: center;
+color: white;
+background-color: teal;
+}
+h1{
+color: rgb(210, 219, 80);
+font-weight: bold;
+margin-top: 0px;
+margin-bottom: 0px;
+text-align: left;
+margin: left 20px;
+padding-left: 30px;
+
+}
+p{
+    width: 820px;
+    height:auto;
+    color: rgb(238, 226, 226);
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom:10px ;
+    padding-right: 60px;
+    margin-bottom:50px;
+    margin-left:  20px;
+    margin-right:110px; 
+    border: 10px rgb(91, 167, 114);
+    text-size-adjust:unset;
+    border-style: dashed ;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     background-color:rgb(26, 46, 35);
+     overflow: auto;  height: 200px;
+}

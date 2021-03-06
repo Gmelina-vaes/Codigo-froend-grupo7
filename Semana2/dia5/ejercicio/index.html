@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css" />
+    <title>FORMULARIO</title>
+</head>
+<body>
+ <h1 >FORMULARIO</h1>
+ <div id ="contenedor-principal">
+   <h3>Encuesta pequeña sobre frontend</h3>
+   <form action="">
+       <div class="pregunta"><label for="nombre">* Nombre</label>
+       <input id="nombre" type="text" placeholder="Ingrese su nombre">
+    </div>
+<div class="pregunta"><label for="email">*Correo</label>
+    <input id="email" type="text" placeholder="Ingrese su correo">
+    </div>
+
+<div class="pregunta">
+    <label for="edad">*Edad</label>
+   <input id="edad" name="edad" id="edad" type ="number" placeholder="Ingrese su edad"></input>
+</div>
+<div class="pregunta"> <label id="titulo-label" >Selecione una ocupacion: </label>
+  <select name="" >
+      <option value="enfermeria">Enfermeria</option>
+      <option value="medico">Medico</option>
+      <option value="ingenieria">Ingeniero</option>
+      <option value="abogado">Abogado</option>
+  </select>
+</div>
+<div class="pregunta">
+    <label for="" id="frontend"> *Que Tanto te gusta el frontend : </label>
+    <input type="radio" id="mucho" name="categoria" value="mucho"> Mucho
+    <input type="radio" id="maso" name="categoria" value="maso">Maso
+    <input type="radio" id="poco" name="categoria" value="poco">Poco
+</div>
+
+  <div class="pregunta"><label id="titulo-label">Que es lo que mas te gusta de FCC: </label>
+    <select name="" >
+        <option value="opcion1">Opcion1</option>
+        <option value="Opcion2">Opcion2</option>
+        <option value="Opcion3">Opcion3</option>
+        <option value="Opcion4">Opcion4</option>
+    </select>
+  </div>
+  <div class="pregunta">
+    <label for="" id="frontend1" id="titulo-label" style="padding-bottom: 10px;">Que es lo que te gustaria en el futuro:</label><Br>
+    <input id="texradio" type="radio" id="Fronend" name="categoria2" value="Fronend">Fond-End Project
+    <input type="radio" id="backend" name="categoria2" value="backend">Back-end
+    <input type="radio" id="visualizacion-datos" name="categoria2" value="visualizacion-datos">Visualizacion de datos
+  </div>
+
+<button style="border-radius: 4px;">ok enviar</button>  
+
+
+   </form>
+
+ </div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+body{
+ margin:auto;
+ background-color: rgb(36, 66, 36);
+}
+
+#mesa{
+  width:100vw;
+  position: absolute;
+  
+}
+#palo{
+   top:200px;
+   width:600px;
+   left: 200px;
+   position:relative;
+   animation:animacion-palo 5s ;
+   transform: rotate(45deg);
+}
+@keyframes animacion-palo{
+   0%{
+    transform:translateY(-80px) rotate(-45deg);   
+   }
+
+50%{
+    transform:translatey(150px)  rotate(-45deg); 
+}
+100% {
+    transform:translatey(80px)  rotate(-45deg);
+   }
+}
+
+#bola{
+    position: relative;
+    top: 520px;
+    left:105px;
+    width:50px;
+    animation:animacion-bola 15s;
+}
+@keyframes animacion-bola{
+    0%{
+     transform: rotate(-45deg);   
+    }
+ 20%{
+     transform:translatey(270px) rotate(60deg); 
+     }
+ 
+ 25%{
+     transform:translatex(100px)  rotate(-45deg); 
+     }
+ 
+ 40%{
+     transform:translatey(120px)  rotate(-45deg); 
+     }
+ 
+ 50%{
+     transform:translatey(140px)  rotate(-45deg); 
+     }
+ 80%{
+         transform:translatey(160px)  rotate(-45deg); 
+         }
+ 100% {
+     transform:translatey(80px)  rotate(-45deg);
+    }
+ }
