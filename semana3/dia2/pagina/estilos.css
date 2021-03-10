@@ -1,0 +1,205 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+    /*  yodo mi documento utilize popin*/
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+  }
+  /* usar la etiqueta html*/
+  html {
+    background: url("/semana3/dia2/pagina/assets/imagen/fondo1.jpg") no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  header {
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    z-index: 999999;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #a5779b;
+    display: flex;
+    opacity: 5px;
+    justify-content: space-between;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgb(92, 67, 84) 35%
+    );
+    opacity: 10px;
+  }
+  #logo {
+    margin: 10px;
+    padding: 5px;
+    font-family: "Poppins", sans-serif;
+  }
+  #main {
+    z-index: 0;
+    text-align: center;
+    /*background-image: url(/semana3/dia2/assets/imagen/fondo1.jpg);*/
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 200vh;
+  }
+  
+  #nombre {
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    top: 100px !important;
+    color: white;
+    font-size: xxx-large;
+  }
+  #perfil {
+    position: relative;
+    top: 140px !important;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid white;
+  }
+  #botones {
+    position: relative;
+    top: 180px !important;
+  }
+  main {
+    text-align: center;
+  }
+
+  .button {
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: #e392ee;
+ 
+    margin-right: 20px;
+    cursor: pointer;
+  
+  }
+  footer {
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fc7439;
+  }
+  
+  .sub-footer {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  #sub-footer-3 {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .texto-footer {
+    font-size: medium;
+    color: white;
+  }
+  #foto {
+    margin-top: 100px;
+    border-radius: 50%;
+    width: 200px;
+    border: 5px solid white;
+  }
+  #waves {
+    width: 100%;
+    left: 0;
+    margin-bottom: -7px;
+  }
+  footer {
+    width: 100%;
+    bottom: 0;/* pegado a fondo*/
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #6e4367;
+  }
+ 
+  #sub-footer {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  #sub-footer-3 {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+  }
+ 
+  #parrafo{
+    font-size: large;
+    margin: auto;
+    color: white;
+    margin: 100px;
+    padding: 30px;
+    border-radius: 20px;
+    justify-content: center;
+    background-color: #eacfec;
+  }
+  #nombre {
+    font-family: "Poppins", sans-serif;
+   margin-bottom: 30px;
+    color: white;
+    font-size: xxx-large;
+  }
+  .texto-footer{
+  font-size: medium;
+  color: white;
+  }
+  .red-social{
+    color: white;
+    width: 30px;
+    margin: 10px;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    padding: 5px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  @media only screen and (max-width: 600px) {
+    header {
+      background-color: rgb(46, 44, 46);
+      text-align: center;
+    }
+  }
+
+  /* pantallas PEQUEÑAS (tablets en modo portrait(vertical) y celulares grandes, o sea que tienen un ancho mayor a 600 px)*/
+@media only screen and (min-width:600px){
+  html {
+    background: url("./assets/imagen/fondo-alternativo.jpg") no-repeat center center fixed;
+    background-size: cover;
+    opacity: 15px;
+  }
+}
+
+/*pantallas grandes (laptops/compu de escritorio , o sea que tienen un ancho mayor o igual 992px)*/
+@media only screen and (min-width: 992px) {
+  footer{
+    justify-content: space-between;
+    background-color: #252225; 
+  }
+}
+
+  /*pantallas muy grandes (igual 1080px)*/
+  @media only screen and (min-width: 1080px) {
+   #foto {
+
+     width:0px;
+     height: 0px;
+     border: 0px;
+    }
+  }

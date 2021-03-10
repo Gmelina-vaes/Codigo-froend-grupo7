@@ -1,0 +1,17 @@
+/* pantallas EXTRA PEQUEÑAS (celulares,  hasta 600px, o sea que tienen un ancho menor a 600px) */
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: tomato;
+      text-align: center;
+    }
+    img{
+        width: 100px;
+        height: 600px;
+        border-radius: 12px;
+    }
+  
+    #texto1{
+      font-family: 'Lato', sans-serif;
+    }
+  }
+  

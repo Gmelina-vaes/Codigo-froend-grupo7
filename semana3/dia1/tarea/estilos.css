@@ -27,7 +27,7 @@ header {
 }
 
 nav {
-  margin-top: 20px;
+  margin-top: 30px;
   margin-right: 10px;
 }
 a {
@@ -63,13 +63,12 @@ a {
 }
 #botones {
   position: relative;
- 
   text-align: center;
   bottom: 650px;
 
 }
 .boton {
-  border-radius: 10px;
+  border-radius: 20px;
   border: 2px solid white;
   background-color: rgb(133, 153, 134);
   color: white;
