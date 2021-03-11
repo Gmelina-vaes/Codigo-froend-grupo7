@@ -1,0 +1,83 @@
+#contenedor-horizontal {
+    display: flex;
+    flex-direction: row;
+    background-color: teal;
+  }
+  #contenedor-horizontal-inicio {
+    display: flex;
+    flex-direction: row;
+    background-color: royalblue;
+    justify-content: flex-start;
+  }
+  #contenedor-horizontal-centro {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(84, 225, 65);
+    justify-content: center;
+  }
+  #contenedor-horizontal-final {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(206, 65, 225);
+    justify-content: flex-end;
+  }
+  #contenedor-horizontal-header {
+    display: flex;
+    flex-direction: row;
+    background-color: thistle;
+    justify-content: space-between;
+  }
+  #contenedor-vertical {
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+  }
+  
+  #contenedor-horizontal-expansor {
+    display: flex;
+    flex-direction: row;
+    background-color: skyblue;
+  }
+  
+  #elemento1 {
+    flex-grow: 1;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: rgb(109, 59, 50);
+  }
+  #elemento2 {
+    flex-grow: 2;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: rgb(27, 18, 78);
+  }
+  #elemento3 {
+    flex-grow: 1;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: rgb(192, 183, 182);
+  }
+  
+  .elemento {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: tomato;
+  }
+  #contenedor-horizontal-envoltorio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(14, 46, 58);
+  }
+  #contenedor-horizontal-alinear-items {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(76, 128, 146);
+    align-items:flex-end;
+    justify-content: space-evenly;
+
+  }
