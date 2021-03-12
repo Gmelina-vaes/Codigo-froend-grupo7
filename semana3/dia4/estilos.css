@@ -1,0 +1,48 @@
+html{
+    background:url(./assets/imagen/hacker.png) no-repeat;
+    width:100%;
+}
+
+#contenedor-horizontal{
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(23, 27, 27);
+    justify-content: space-between;
+}
+#parrafo{
+    font-size:large;
+    font-weight:bolder;
+    color:white;
+    margin:10px;
+}
+*{
+    margin:0;
+}
+nav{
+    margin-top: 42px;
+    margin-right: 20px;
+}
+#navbar{
+
+}
+#imagen{
+    width: 100px;
+    height: auto;
+    margin:10px;
+}
+.link{
+    text-decoration: none;
+
+}
+#contenedor-vertical{
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    align-items: center;
+}
+.foto{
+    width:300px;
+    height:auto;
+    margin:10px;
+    box-shadow: 5px 5px 5px 5px black;
+}
