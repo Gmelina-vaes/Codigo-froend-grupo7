@@ -14,19 +14,22 @@ margin-top: 5px;
  display: flex;
 } 
 #nav-final{
+    display: flex;
+    flex-direction: row;
     justify-content:end;
-    padding: top 0px;;
+    
+    
 }
 nav{
     padding-top: 0px;
     margin-top: 10px;
-    text-align: center;
-    padding: 20px;
+    text-align:left;
+    padding: 20px; 
 }
 
 #imagen{
     padding-top: 120px;
-    width:400px;
+    width:290px;
 }
 a {
     padding-left: 20px;
@@ -39,20 +42,29 @@ a:active, a:hover {
     width: 10px;
     height: 20px;
 }
+
+#icongmail{
+    border-radius:60px; 
+    border: transparent solid 1px;  
+    background-position: bottom;
+
+    background-position-y: 40%;
+    
+}
 input{
-    flex: 8 0 auto;
+  flex: 10 0 auto;
   align-items: center;
   color: rgb(39, 36, 32);
- 
   white-space:pre-wrap;
   font-size: 13px;
   cursor: pointer; 
   background: transparent; 
   padding: 0 5px 6px;
   outline: none;
-  line-height: 30px; 
+  line-height: 20px; 
   border: 0;
   margin: 5px;
+ 
 }
 .a4bIc {
     display: flex;
@@ -61,7 +73,7 @@ input{
 }
 
 #center-boton{
-    background-color: #f8f3f3; 
+    background-color: #f8f9fa; 
     border: 1px solid #f8f9fa;
  border-radius: 4px;
     color: #3e3f41;    
@@ -73,6 +85,7 @@ input{
     margin: 11px 4px;
     padding: 0 16px;
     border: rgb(224, 233, 233);
+    height: 40px;
 }
  
 .clear-button {
@@ -84,14 +97,24 @@ main{
     height: 75vh;
 }
 #buscador{
-   width: 500px;
+   width: 550px;
    height: 40px;
    border-radius:35px;
    border:solid 1px rgb(222 228 230);
    font-size: 25px;
-   padding: 1px;
-  background: url(./assets/imagen/micro.png) no-repeat  right 2%;
-  background-size: 30px;
+   padding: 4px;
+  background: url(./assets/imagen/micro.png) no-repeat  right 16%;
+  background-size: 25px; 
+ 
+}
+
+#inconbuscador1{
+    text-align: center;
+    background: url(./assets/imagen/buscador.png) no-repeat left 5% ;
+    background-size:15px;
+    background-size: 20px;
+    background-position-x: 420px;
+    background-position-y: 16px;
 }
 .imagnen-voiceSearchButton {
    

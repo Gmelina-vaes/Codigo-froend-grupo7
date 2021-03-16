@@ -4,7 +4,7 @@
   font-family: "Raleway", sans-serif;
 }
 html {
-    background: url("./assets/imagen/hacker.png") no-repeat center center fixed;
+    background: url("./assets/images/mr-robot.jpg") no-repeat center center fixed;
     background-size: cover;
   }
 
@@ -28,10 +28,12 @@ html {
   height: auto;
   margin: 10px;
 }
+
 nav {
   margin-top: 40px;
   margin-right: 20px;
 }
+
 .link {
   text-decoration: none;
   color: white;
@@ -39,10 +41,12 @@ nav {
   font-size: large;
   font-weight: bold;
 }
+
 #navbar{
     display: flex;
     justify-content: space-between;
 }
+
 #contenedor-vertical{
     display: flex;
     flex-direction: column;
@@ -61,41 +65,36 @@ nav {
 #contenedor-horizontal-2{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    background-color: rgb(131, 120, 141);
     margin: 20px;
 }
 .frase{
     color: black;
     font-size: large;
     font-weight: bolder;
-    background-color: rgb(167, 159, 159);
+    background-color: white;
     padding: 10px;
     margin: 10px;
 }
 
-    /*para celulare*/
+@media only screen and (max-width: 600px) {
+    #contenedor-horizontal{
+        position:static;
+    }
+    #parrafo{
+        display: none;
+    }
+    nav{
+        margin-right: 10px;
+    }
+#contenedor-vertical{
+    margin-top: 50px;
+}
 
-    @media only screen and (max-width: 600px) {
-        #contenedor-horizontal{
-            position:static;
-        }
-        #parrafo{
-            display: none;
-        }
-        nav{
-            margin-right: 10px;
-        }
-    #contenedor-vertical{
-        margin-top: 50px;
-    }
-    
-    #contenedor-horizontal-2{
-        flex-wrap: wrap;
-    }
-    .frase{
-        background-color:black;
-        color: white;
-    }
- }
-    
+#contenedor-horizontal-2{
+    flex-wrap: wrap;
+}
+.frase{
+    background-color:black;
+    color: white;
+}
+}
