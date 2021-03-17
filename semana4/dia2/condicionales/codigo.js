@@ -182,7 +182,7 @@ let parrafo = document.querySelector('p');
 
 seleccionar.addEventListener('change', establecerClima);
 
-function establecerClima() {
+function establecerClima(){
   let eleccion = seleccionar.value;
 
   if (eleccion === "soleado") {

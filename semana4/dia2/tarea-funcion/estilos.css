@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+*{
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    background-color: rgb(134, 105, 124);
+    opacity: 0.55;
+    display: flex;
+    justify-content: space-between;
+    flex:auto;
+  }
+html{
+
+    z-index:0;
+    background-image: url("./assets/imagen/fondo1.jpg");
+    background-repeat: no-repeat;
+    width:100%;
+    height:100vh;
+    background-size: cover;
+}
+#posicion{
+    padding: 20px;
+    text-align: center;
+     background-size: 350px;
+     color: white;
+     text-size-adjust:13px ;
+}
+nav {
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  a {
+    text-decoration: none;
+    color: rgb(39, 35, 35);
+    font-weight: bolder;
+    padding: 5px;
+  }
+#logo {
+    margin: 10px;
+    height: 60px;
+    width: 150px;
+  }
+#select {
+    text-align: center;
+    bottom: 650px;
+    width:200px;
+  }
+#imagen{
+    margin-top: 100px;
+    text-align:center;
+    width: 450px;
+    height: 200px;
+    background-size: cover;
+    margin-left:405px;
+    border-radius: 6% ;
+    padding: 20px;
+    opacity: 0.65;
+   /* background-image: url(./assets/imagen/ub40.jpg);*/
+}
+h1 ,p {
+    text-align: center;
+    width: 500px;
+    margin-left: 400px;
+}
+p{
+    border-color: rgb(187, 183, 175) ;
+    background-color: rgb(29, 31, 32);
+    opacity:60%;
+    border-radius: 15px;
+    color: white;
+    padding: 20px;
+}
