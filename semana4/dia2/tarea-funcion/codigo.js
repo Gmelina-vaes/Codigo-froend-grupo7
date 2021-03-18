@@ -9,8 +9,9 @@ function micancion() {
 
   let eleccion = seleccionar.value;
  const Lisimagen= ['./assets/imagen/ub40.jpg','./assets/imagen/shakira.gif','./assets/imagen/michael.jpg',
- './assets/imagen/u2.jpg'];
+ './assets/imagen/u2.gif','./assets/imagen/imagen1.jpg'];
   if (eleccion==="") {
+    $imageness.style.backgroundImage =`url(${Lisimagen[4]})`;
     titulo.textContent=" Elige una cancion"
     parrafo.textContent =""
   } else if (eleccion ==="red-wine") {
