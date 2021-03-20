@@ -1,5 +1,5 @@
 // callbacks
-
+/*
 function mostrarAlerta(){
     alert("Hola que tal !!");
 }
@@ -8,9 +8,10 @@ const boton = document.querySelector("button");
 boton.addEventListener("click",function(){
   alert(" hola q tal");  
 })
+*/
 
 // cuando se utiliza  una funcion como argumento
-let segundos = 5;
+let segundos = 6;
 function empezarCuentaarAtraz(){
  let intervalo = setInterval(function(){
      segundos --;
