@@ -306,13 +306,12 @@ function sumar(numero1, numero2) {
     console.log(typeof(codigo));
     return nombre + (codigo % 2);
   }
-  
-  
   //generarId(mi_peticion_de_servidor[0].nombre,mi_peticion_de_servidor[0].edad)
   // nombre13423
-  
   console.log(
     generarId(mi_peticion_de_servidor[0].nombre, mi_peticion_de_servidor[0].codigo)
   );
+
+  
 
   
